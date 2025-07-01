@@ -1,0 +1,882 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.navbar{
+    background-color:#000;
+    height:54px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position:fixed;
+    z-index:100;
+}
+.img1{
+    background-image:url("https://pngimg.com/uploads/netflix/netflix_PNG25.png");
+    background-size: 100% 100%;
+    width:100px;
+    height:40px;
+    margin-left:40px;
+    margin-top:8px;
+}
+
+.navbar ul{
+    display:flex;
+    flex-direction: row;
+    margin-right:100px;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right:10px;
+}
+.desc{
+    color:white;
+    font-size:15px;
+    font-weight:500;
+    top:16px;
+    position: relative;
+}
+.btn1{
+    background-color:red;
+    border-radius:2px;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    outline:none;
+    top:8px;
+    position: relative;
+}
+.btn2{
+    background-color:transparent;
+    border-radius:2px;
+    color:white;
+    padding:9px 18px;
+    border:1px solid white;
+    outline:none;
+    top:8px;
+    position: relative;
+}
+section{
+    background-image:url("image/3.jpg");
+    background-size: cover;
+    background-position: top;
+    width:100%;
+    height:700px;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.mainpage{
+    height:400px;
+    position:relative;
+    top:160px;
+    left:50px;
+}
+.img2{
+    height:100px;
+    width:500px;
+    position:relative;
+}
+.mainpagemovie_name{
+    color:white;
+    position:relative;
+    top:45px;
+}
+.date_sea_type{
+    color:grey;
+    position:relative;
+    top:55px;
+    font-size:16px;
+    font-weight:500;
+}
+.desc1{
+    font-weight:500;
+    font-size:17px;
+    color:white;
+    width:520px;
+    position:relative;
+    top:70px;
+}
+.cast{
+    color:white;
+    font-weight:500;
+    font-size:17px;
+    position:relative;
+    top:80px;
+    width:380px;
+}
+
+/* Trailer css */
+.div1{
+    background:#111;
+    height:600px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.div2{
+    color:white;
+    font-size:20px;
+    font-weight:600;
+    border-top:2px solid grey;
+    border-bottom:2px solid grey;
+    height:50px;
+    width:90%;
+    display:flex;
+    margin-left:5%;
+    justify-content: center;
+    margin-top:40px;
+    align-items: center;
+}
+.text1{
+    color:white;
+    font-size:30px;
+    position:relative;
+    margin-left:5%;
+    margin-top:50px;
+}
+.trailer{
+    display:flex;
+    height:450px;
+    width:90%;
+    margin-left:5%;
+}
+.trailers{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height:450px;
+    width:90%;
+    margin-left:5%;
+    overflow-y: scroll;
+}
+.trailers5{
+    display:flex;
+    height:450px;
+    width:90%;
+    margin-left:5%;
+    overflow-y: scroll;
+}
+
+.trailers::-webkit-scrollbar,.trailers5::-webkit-scrollbar{
+    display:none;
+}
+.trailers1{
+    height:450px;
+    width:90%;
+    margin-left:20px;
+    margin-right:20px;
+
+}
+.trailers2{
+    height:450px;
+    width:90%;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+ .trailers1{
+    height:350px;
+    width:500px;
+    margin-left:5%;
+} 
+.trailers2{
+    height:350px;
+    width:500px;
+    margin-left:5%;
+}
+.trailers4{
+    height:450px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.trailer1{
+    height:350px;
+    width:500px;
+}
+.trailer2{
+    height:350px;
+    width:500px;
+}
+.trailer3{
+    height:350px;
+    width:500px;
+}
+.trailer4{
+    height:350px;
+    width:500px;
+}
+.text2{
+    color:white;
+    font-size:20px;
+}
+
+/*Episodes or movies css*/
+.div3{
+    height:1100px;
+    background-color:#111;
+    width:100%;
+}
+.div4{
+    height:750px;
+    background-color:#111;
+    width:100%;
+}
+.movies1{
+    height:490px;
+    background-color:#111;
+    width:100%;
+}
+.movies4{
+    height:1400px;
+    background-color:#111;
+    width:100%;
+}
+.movies6{
+    height:1200px;
+    background-color:#111;
+    width:100%;
+}
+.text4{
+    color:white;
+    font-size:30px;
+    position:relative;
+    margin-left:5%;
+    top:50px;
+}
+.select{
+    border:none;
+    outline:none;
+    margin-left:10px;
+    margin-top:-5px;
+    position: relative;
+    background-color:transparent;
+    color:white;
+    font-size:20px;
+} 
+.movies{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:880px;
+    width:90%;
+    position: relative;
+    margin-left:5%;
+    top:7%;
+}
+.movies3{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:650px;
+    width:90%;
+    position: relative;
+    margin-left:5%;
+    top:7%;
+}
+.movies2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:320px;
+    width:90%;
+    position: relative;
+    margin-left:5%;
+    top:20%;
+}
+.movies5{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:1080px;
+    width:90%;
+    position: relative;
+    margin-left:5%;
+    top:7%;
+}
+.movies7{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:1080px;
+    width:90%;
+    position: relative;
+    margin-left:5%;
+    top:7%;
+}
+.movies8{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:1620px;
+    width:90%;
+    position: relative;
+    margin-left:5%;
+    top:7%;
+}
+.div5{
+    height:1800px;
+    background-color:#111;
+    width:100%;
+}
+.movies9{
+    height:1200px;
+    background-color:#111;
+    width:100%;
+}
+.movies10{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:1070px;
+    width:90%;
+    position: relative;
+    margin-left:5%;
+    top:7%;
+}
+.movies11{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.movie{
+    height:300px;
+    width:400px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.videos{
+    height:250px;
+    width:400px;
+    object-fit: cover;
+}
+.namebox{
+    background-color:#111;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.name{
+    font-size:20px;
+    background-color:#111;
+    color:white;
+    width:300px;
+    padding:5px 10px;
+    text-align: center;
+}
+
+/* Responsive CSS */
+
+@media (max-width:1350px){
+    .div3{
+        height:1350px;
+    }
+    .div4{
+        height:1020px;
+    }
+    .movies6{
+        height:1700px;
+    }
+    .movies7{
+        height:1500px;
+    }
+    .movies4{
+        height:1700px;
+    }
+    .div5{
+        height:2300px;
+    }
+    .movies9{
+        height:1400px;
+    }
+}
+@media (max-width:1200px){
+    .trailers1,.trailers2,.trailers3{
+        height:300px;
+        width:380px;
+        margin-right:60px;
+        margin-left:50px;
+    }
+    .trailers4{
+        height:300px;
+        width:400px;
+        margin-right:150px;
+    }
+}
+
+@media (max-width:1100px){
+    section{
+        height:600px;
+        background-size:100% 100%;
+    }
+    .img2{
+        height:80px;
+        width:400px;
+        position:relative;
+    }
+    .div2{
+        display:none;
+    }
+    .div1{
+        height:480px;
+    }
+    .text1{
+        margin-top:50px;
+    }
+    .trailer{
+        margin-top:-50px;
+        height:350px;
+    }
+    .trailers{
+        margin-top:-50px;
+        height:350px;
+    }
+    .trailers5{
+        height:350px;
+        margin-top:-50px;
+    }
+
+    .trailers1,.trailers2{
+        height:275px;
+        width:350px;
+    }
+    .trailers4{
+        height:275px;
+        width:350px;
+        margin-right:70px;
+    }
+    .trailer1,.trailer2{
+        height:290px;
+        width:370px;
+    }
+
+    .trailer3{
+        height:290px;
+        width:370px;
+    }
+
+    .trailer4{
+        height:290px;
+        width:370px;
+    }
+    .videos{
+        height:240px;
+        width:370px;
+    }
+    .movies{
+        width:90.5%;
+        margin-left:4.7%;
+    }
+    .movies3{
+        width:90.5%;
+        margin-left:4.5%;
+    }
+    .movies7{
+        width:100%;
+        margin-left:0%;
+    }
+    .movies5{
+        width:90.5%;
+        margin-left:4.2%;
+    }
+    .movies8{
+        width:95%;
+        margin-left:2.5%;
+    }
+    .movies10{
+        width:95%;
+        margin-left:2.5%;
+    }
+    
+}
+@media (max-width:900px){
+    .desc1{
+        width:400px;
+    }
+    .trailers1{
+        margin-left:200px;
+    }
+    .trailers2{
+        margin-left:0;
+    }
+     .videos{
+        height:220px;
+        width:450px;
+    }
+    .div3{
+        height:2250px;
+    }
+    .div4{
+        height:1670px;
+    }
+    .movies{
+        top:3%;
+        height:2100px;
+        width:60%;
+        margin-left:20%;
+    }
+    .movies3{
+        top:3%;
+        height:1550px;
+        width:60%;
+        margin-left:20%;
+    }
+    .movies6{
+        height:2850px;
+    }
+    .movies7{
+        width:70%;
+        top:2%;
+        margin-left:15%;
+        height: 2700px;
+    }
+    .movies5{
+        height:2990px;
+        top:2%;
+        width:70%;
+        margin-left:15%;
+    }
+    .movies4{
+        height:3170px;
+    }
+    .movies8{
+        top:2%;
+        width:90%;
+        margin-left:5%;
+        
+    }
+    .div5{
+        height:4050px;
+    }
+    .movies9{
+        height:2500px;
+    }
+    .movies10{
+        top:2%;
+        width:90%;
+        margin-left:5%;
+    }
+    
+    
+}
+@media (max-width:767px){
+    .img1{
+        background-image: url("https://www.pngarts.com/files/1/Netflix-Logo-PNG-Transparent-Image.png");
+        margin-left:10px;
+    }
+    .desc{
+        display:none;
+    }
+    .div1{
+        height:440px;
+    }
+    .navbar ul{
+        margin-right:0px;
+    }
+    section{
+        height:600px;
+    }
+    .img2{
+        height:60px;
+        width:300px;
+        position:relative;
+    }
+    .movie{
+        height:170px;
+        width:230px;
+    }
+    /*.movie:hover{
+        height:190px;
+        width:250px;
+        margin-top:-10px;
+    }*/
+    .movie_2name,.name{
+        font-size:18px;
+    }
+    .text1{
+        font-size:25px;
+    }
+    .text4{
+        font-size:25px;
+    }
+    .trailer{
+        height:230px;
+    }
+    .trailers{
+        height:230px;
+    }
+    .trailers5{
+        height:230px;
+    }
+    .trailers1{
+        margin-left:190px;
+    }
+    .trailers2{
+        margin-left:-10px;
+    }
+    .trailers4{
+        margin-right:40px;
+    }
+    .trailer1,.trailer2{
+        width:300px;
+        height:200px;
+    }
+    .trailer3{
+        width:300px;
+        height:200px;
+    }
+    .trailer4{
+        width:300px;
+        height:200px;
+    }
+    .movies6{
+        height:2850px;
+    }
+    .movies7{
+        width:70%;
+        top:2%;
+        margin-left:15%;
+        height: 2750px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .movies5{
+        height: 2750px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .movies4{
+        height:2880px;
+    }
+    .movies8{
+        width:60%;
+        margin-left:20%;
+        height:3950px;
+    }
+    .movies9{
+        height:2550px;
+    }
+    .movies10{
+        width:60%;
+        margin-left:20%;
+        height:2400px;
+    }
+}
+@media (max-width:640px){
+    .trailers1{
+        margin-left:200px;
+    }
+    .trailers2{
+        margin-right:-100px;
+    }
+}
+@media (max-width:500px){
+    section{
+        height:300px;
+    }
+    .img2{
+        height:50px;
+        width:200px;
+        position:relative;
+    }
+    .div1{
+        height:650px;
+    }
+    .mainpage{
+        height:300px;
+        position:relative;
+        top:80px;
+        left:16px;
+        margin-top:230px;
+        width:90%;
+        overflow:hidden;
+        border-bottom:1px solid grey;
+    }
+    .mainpagemovie_name{
+        top:15px;
+        font-size:14px;
+    }
+    .date_sea_type{
+        top:20px;
+        font-size:14px;
+    }
+    .desc1{
+        font-size:16px;
+        top:30px;
+    }
+    .cast{
+        top:40px;
+    }
+    .btn1{
+        display:none;
+    }
+    .btn2{
+        padding:4px 10px;
+        border:1px solid white;
+        outline:none;
+        top:11px;
+        position: relative;
+    }
+    .movie{
+        height:120px;
+        width:180px;
+    }
+    .movie:hover{
+        height:140px;
+        width:200px;
+        margin-top:-10px;
+    }
+    .movie_2name,.name{
+        font-size:16px;
+    }
+    .trailer{
+        margin-top:300px;
+        margin-left:2%;
+    }
+    .trailers{
+        margin-top:300px;
+        margin-left:2%;
+    }
+    .trailers5{
+        margin-left:2%;
+        margin-top:300px;
+    }
+    .trailers1{
+        margin-left:200px;
+    }
+    .trailers4{
+        margin-left:10px;
+        margin-right:10px;
+    }
+    .trailers2{
+        margin-left:-40px;
+    } 
+    .text2{
+        font-size:16px;
+    }
+    .text1{
+        top:290px;
+        margin-left:2.5%;
+    }
+    /* #trailer{
+       margin-top:170px;
+    } */
+    .trailer1,.trailer2{
+        width:260px;
+        height:200px;
+    }
+    .trailer3{
+        width:260px;
+        height:200px;
+    }
+    .trailer4{
+        width:260px;
+        height:200px;
+    }
+    .videos{
+        height:240px;
+        width:350px;
+        object-fit: cover;
+    }
+    .movies6{
+        height:2650px;
+    }
+    .movies7{
+        width:70%;
+        top:2%;
+        margin-left:15%;
+        height: 2450px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .movies4{
+        height:2930px;
+    }
+}
+@media (max-width:440px){
+    .img2{
+        height:50px;
+        width:200px;
+    }
+    .desc1{
+        width:330px;
+    }
+    .cast{
+        width:330px;
+    }
+    .videos{
+        height:240px;
+        width:320px;
+        object-fit: cover;
+    }
+}
+@media (max-width:370px){
+    .trailers1{
+        margin-left:250px;
+    }
+    .trailers2{
+        margin-left:-40px;
+    } 
+    .text1{
+        font-size:20px;
+    }
+    .text4{
+        font-size:20px;
+    }
+    .trailer{
+        overflow-x:scroll;
+    }
+    .trailer::-webkit-scrollbar{
+        display:none;
+    }
+    .mainpage{
+        height:320px;
+    }
+    .desc1{
+        width:260px;
+    }
+    .cast{
+        width:260px;
+    }
+    .trending_column{
+        margin-top:380px;
+    }
+    .trailers5{
+        width:100%;
+    }
+    .videos{
+        height:210px;
+        width:280px;
+    }
+}
+@media (max-width:310px){
+    .trailers1{
+        margin-left:290px;
+    }
+    .trailers2{
+        margin-left:-40px;
+    } 
+    .videos{
+        height:210px;
+        width:260px;
+    }
+    
+}
+@media (max-width:290px){
+    .desc1{
+        width:220px;
+    }
+    .cast{
+        width:220px;
+    }
+    .videos{
+        height:190px;
+        width:220px;
+    }
+}
